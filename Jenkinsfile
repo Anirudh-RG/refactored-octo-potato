@@ -1,9 +1,9 @@
 pipeline {
 	agent any
-	stages {
+	stages{
 		stage('Stage 1'){
 			steps{
-			echo 'wooogogoggogog/'
+				bat 'scripts/stage1.bat'
 			}
 		}
 	}
